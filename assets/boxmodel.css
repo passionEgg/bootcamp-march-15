@@ -1,0 +1,41 @@
+.header{
+  background-color:salmon;
+  width:80%;
+}
+.header p{
+  background-color: yellowgreen;
+  width:400px;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+.header a{
+  background-color: aqua;
+  width: 400px;       /* no support*/
+  height: 400px;     /* no support*/
+  margin-bottom:20px;  /* no support ?????  */
+  margin-left:20px;
+  padding-top:20px;
+  padding-bottom:15px;
+  padding-left:5px;
+
+}
+.nav{
+  background-color:gray;
+}
+.nav img{
+  width: 100px;
+  height:100px;
+}
+.section{
+  background-color:rgba(0, 0, 0, -2);
+  width: 60%;
+  height: 300px;
+
+}
+
+/* The meaning of "content" on CSS is "text" ! ! */
+
+/* In CSS, elements are equal to "Box". It's clear if i put background color. There's a colored box for each elements */
+.footer{
+  background-color: teal;
+}

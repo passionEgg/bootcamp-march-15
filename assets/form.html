@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form element</title>
+</head>
+<body>
+  <!-- form Elements
+  form = paren element
+  inpu
+  label
+
+  attribute
+     action
+     method
+     type
+     name
+     id
+     placeholder
+     value
+     required
+     minlength
+     maxlength
+  -->
+  <form action="https://kredo.jp" method = "get">
+   <label for="fullname">Full Name</label>
+   <!-- for(attribute)  with id(attribute) can make it possible to
+  link "label" and "input"-->
+  <input type="text" name = "fullname" id = "fullname" placeholder = "Last Name. First Name">
+
+  <label for="email-address">Email Address:</label>
+  <input type="email" name = "email-address" id = "email-address" placeholder ="yourmail@gmail.com">
+
+  <label for="password">Password</label>
+  <input type="password" name = "password" id = "password" placeholder = "Your password">
+
+  <label for="age">Age</label>
+  <input type="number" name="age" id = "age" placeholder = "Above 18">
+
+  <label for="birthday" >Birth Date</label>
+  <input type="date" name = "birthday" id = "dirthday">
+
+  <div>
+      <p>Chooose your gender</p>
+      <input type="radio" name = "gender" value = "male" id = "male" >
+      <label for=" male">Male</label>
+
+      <input type="radio" name = "gender" value = "female" id = "female">
+      <label for="female">Female</label>
+
+      <input type= "radio" name = "gender" value = "lgbt" id = "lgbt">
+      <label for="lgbt">LGBT</label>
+
+      <input type="text">
+
+  </div>
+
+  <button>send</button>
+  </form>
+</body>
+</html>
